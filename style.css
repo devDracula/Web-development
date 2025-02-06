@@ -1,0 +1,53 @@
+body{
+    background-color: #FFFFFF !important;
+    /* background-color: rgb(246, 247, 196) !important; */
+}
+.header-img{
+    display: flex;
+    background-color: #004AAB;
+    justify-content: center;
+}
+.bg-body-secondary{
+    background-image: url(./Images/Untitled\ Design\ Canva.png);
+    background-size: cover;
+    border-radius: 5px;
+}
+.text-on-image{
+    color: "#212ED0";
+    font-weight: bold;
+}
+.spotlight{
+    background-color: rgb(123, 211, 234);
+}
+#about{
+    background-color: rgb(161, 238, 189) !important;
+}
+/* #news{
+    
+} */
+.website-link{
+    background-color: rgb(204, 224, 172);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#footer{
+    margin-top: 20px;
+    background-color: rgb(244, 222, 179) !important;
+}
+#my-class{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: #A1EEBD 10px solid;
+}
+.box{
+    transition: 0.5s;
+}
+.box:hover{
+    transform: scale(1.12);
+    z-index: 2;
+} 
+.box p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
